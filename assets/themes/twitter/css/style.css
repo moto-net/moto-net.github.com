@@ -68,4 +68,43 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+/* sidebar*/
+#custom_sidebar {
+	width:150px;
+	text-align: left;
+	margin: 20px 0;
+}
+#custom_sidebar p{
+	font-size:11px;
+}
+#me {
+	background:#FFF;
+	padding:2px;
+	border:1px solid #ccc;
+}
+
+/* contact list*/	
+
+#contact_list {
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-align: left;
+}
+#contact_list li {
+
+}
+
+#contact_list li a{
+	line-height:2em;
+}
+#contact_list li a img {
+	float:right;
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	padding-left:7px;
+	border:0;
+}
 	
