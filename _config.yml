@@ -16,7 +16,7 @@ author :
   email : 
   github : moto-net
   twitter : 
-  feedburner : feedname
+  feedburner : InternetClub
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -81,13 +81,13 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : InternetClub
     livefyre :
-      site_id : 123
+      site_id : 
     intensedebate :
-      account : 123abc
+      account : 
     facebook :
-      appid : 123
+      appid : 
       num_posts: 5
       width: 580
       colorscheme: light
