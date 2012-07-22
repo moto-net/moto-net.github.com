@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : InternetClub
+      short_name : moto-net
     livefyre :
       site_id : 
     intensedebate :
