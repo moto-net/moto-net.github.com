@@ -39,11 +39,13 @@ tagline: ~Jekyll入門~
 .md の例を載せましたが、.html や .textile も使えます。  
 .mdとはMarkdownファイルの拡張子です。Markdown記法で書くと、自動でHTMLに変換してくれます。
 Markdown記法はとても簡単なので以下のサイトを参考に試してみるといいでしょう。
+
+- [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
+  (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
+- [リアルタイムプレビューにも対応、“Markdown”専用のエディター「MarkdownPad」](http://www.forest.impress.co.jp/docs/review/20111020_485035.html) (Windows用)
 - [Markdown - Wikipedia](http://ja.wikipedia.org/wiki/Markdown)
 - [Markdown の記法](http://technetium.matrix.jp/markdown.html)
 - [Markdown文法の全訳](http://blog.2310.net/archives/6)
-- [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
-  (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
 
 4\. **コミットして、pushする(公開する)**
 
