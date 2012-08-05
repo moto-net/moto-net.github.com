@@ -45,7 +45,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 - [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
   (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
 
-4. **コミットして、pushする(公開する)**
+4\. **コミットして、pushする(公開する)**
 
 
 ###参考ページ
