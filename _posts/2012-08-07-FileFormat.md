@@ -2,7 +2,7 @@
 layout: post
 title: 画像のファイル形式のハナシ
 category: Graphics
-tags: [ コンピュータグラフィックス, 初心者向け ]
+tags: [ コンピュータグラフィックス, 初心者向け, ensosarashi ]
 tagline: コンピュータグラフィックス
 ---
 
@@ -192,4 +192,4 @@ jpgを保存する際にはプログレッシブ、gifやpngを保存する際�
 
 ----------
 
-記事作成：塩元
+記事作成：ensosarashi
