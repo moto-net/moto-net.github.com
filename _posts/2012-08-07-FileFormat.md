@@ -2,7 +2,7 @@
 layout: post
 title: 画像のファイル形式のハナシ
 category: Graphics
-tags: [ コンピュータグラフィックス, 初心者向け, ]
+tags: [ コンピュータグラフィックス, 初心者向け ]
 tagline: コンピュータグラフィックス
 ---
 
