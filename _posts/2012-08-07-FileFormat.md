@@ -42,7 +42,7 @@ tagline: 覚えておきたいデジ絵の知識
 
 >例：このページで使われているほむほむの画像データの場合
 
->![](http://cloud.github.com/downloads/ensosarashi/FileFormat/extension.png)
+>![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/extension.png)
 
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「でも、どうして、ファイル形式を使い分ける必要があるの？」
 
@@ -58,9 +58,9 @@ tagline: 覚えておきたいデジ絵の知識
 
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「主な画像のファイル形式を表にまとめてみたわ」
 
-![](http://cloud.github.com/downloads/ensosarashi/FileFormat/raster.png)
+![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/raster.png)
 
-![](http://cloud.github.com/downloads/ensosarashi/FileFormat/vector.png)
+![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/vector.png)
 
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「ベクトル画像って何かな？」
 

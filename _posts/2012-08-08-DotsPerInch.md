@@ -43,7 +43,7 @@ tagline: 覚えておきたいデジ絵の知識
 
 解像度をアバウトに説明すると、画像の綺麗さを表す度合で、解像度が高ければ高いほど画像が綺麗になります。下の図は、異なる解像度の写真を、画面上で同じサイズで表示したものです。解像度が高い方が画像が鮮明なのがよく分かると思います。
 
-![](http://cloud.github.com/downloads/ensosarashi/DotsPerInch/comparison.jpg)
+![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/comparison.jpg)
 
 　
 
