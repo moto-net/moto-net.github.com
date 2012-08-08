@@ -22,7 +22,7 @@ tagline: コンピュータグラフィックス
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「本当？やったぁ！」
 
 
->##**目次**
+##**目次**
 
 >1. ファイル形式とは
 >2. 主な画像のファイル形式
