@@ -6,7 +6,8 @@ tags: [intro, beginner, jekyll, tutorial, master]
 tagline: ~Jekyll入門~
 ---
 
-1. **Git(GUIクライアント)をインストールする**  
+1. **Git(GUIクライアント)をインストールする**
+
  - **Windowsの場合** [GitHub for Windows](http://windows.github.com/)がオススメです  
  使い方は[github-for-windows-tutorial](http://chocolatina.github.com/github-for-windows-tutorial/)を参考にしましょう
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
@@ -40,12 +41,12 @@ tagline: ~Jekyll入門~
 .mdとはMarkdownファイルの拡張子です。Markdown記法で書くと、自動でHTMLに変換してくれます。
 Markdown記法はとても簡単なので以下のサイトを参考に試してみるといいでしょう。
 
-- [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
-  (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
-- [リアルタイムプレビューにも対応、“Markdown”専用のエディター「MarkdownPad」](http://www.forest.impress.co.jp/docs/review/20111020_485035.html) (Windows用)
-- [Markdown - Wikipedia](http://ja.wikipedia.org/wiki/Markdown)
-- [Markdown の記法](http://technetium.matrix.jp/markdown.html)
-- [Markdown文法の全訳](http://blog.2310.net/archives/6)
+ - [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
+   (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
+ - [リアルタイムプレビューにも対応、“Markdown”専用のエディター「MarkdownPad」](http://www.forest.impress.co.jp/docs/review/20111020_485035.html) (Windows用)
+ - [Markdown - Wikipedia](http://ja.wikipedia.org/wiki/Markdown)
+ - [Markdown の記法](http://technetium.matrix.jp/markdown.html)
+ - [Markdown文法の全訳](http://blog.2310.net/archives/6)
 
 4. **コミットして、pushする(公開する)**
 
