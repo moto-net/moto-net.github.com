@@ -6,7 +6,8 @@ tags: [intro, beginner, jekyll, tutorial, master]
 tagline: ~Jekyll入門~
 ---
 
-**1. Git(GUIクライアント)をインストールする**  
+**1. Git(GUIクライアント)をインストールする**
+
  - **Windowsの場合** [GitHub for Windows](http://windows.github.com/)がオススメです  
  使い方は[github-for-windows-tutorial](http://chocolatina.github.com/github-for-windows-tutorial/)を参考にしましょう
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
