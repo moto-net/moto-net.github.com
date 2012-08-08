@@ -13,6 +13,7 @@ tagline: ~Jekyll入門~
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
 
 **2. レポジトリを取ってくる**
+
 **3. 記事を書く**  
 以下のディレクトリ構造は例ですが、
 
