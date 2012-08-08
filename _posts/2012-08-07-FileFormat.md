@@ -3,13 +3,8 @@ layout: post
 title: 画像のファイル形式のハナシ
 category: Graphics
 tags: [ コンピュータグラフィックス, 初心者向け, ensosarashi ]
-tagline: コンピュータグラフィックス
+tagline: 覚えておきたいデジ絵の知識
 ---
-
-#####パソコンでイラストを描くときに覚えておきたい
-#**画像のファイル形式のハナシ**
-
-----------
 
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「パソコンでイラストを描いたよ！早速保存しなきゃ。」
 

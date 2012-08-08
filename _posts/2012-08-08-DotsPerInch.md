@@ -3,13 +3,8 @@ layout: post
 title: 画像の解像度のハナシ
 category: Graphics
 tags: [ コンピュータグラフィックス, 初心者向け, ensosarashi ]
-tagline: コンピュータグラフィックス
+tagline: 覚えておきたいデジ絵の知識
 ---
-
-#####パソコンでイラストを描くときに覚えておきたい
-#**画像の解像度のハナシ**
-
-----------
 
 ![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「保健係の仕事でポスターを作ることになったよ！」
 
