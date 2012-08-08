@@ -6,16 +6,13 @@ tags: [intro, beginner, jekyll, tutorial, master]
 tagline: ~Jekyll入門~
 ---
 
-1. **Git(GUIクライアント)をインストールする**
-
+**1. Git(GUIクライアント)をインストールする**  
  - **Windowsの場合** [GitHub for Windows](http://windows.github.com/)がオススメです  
  使い方は[github-for-windows-tutorial](http://chocolatina.github.com/github-for-windows-tutorial/)を参考にしましょう
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
 
-2. **レポジトリを取ってくる**
-
-3. **記事を書く**
-
+**2. レポジトリを取ってくる**
+**3. 記事を書く**  
 以下のディレクトリ構造は例ですが、
 
 	.
@@ -48,7 +45,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
  - [Markdown の記法](http://technetium.matrix.jp/markdown.html)
  - [Markdown文法の全訳](http://blog.2310.net/archives/6)
 
-4. **コミットして、pushする(公開する)**
+**4. コミットして、pushする(公開する)**
 
 ###参考ページ
 - [GitHub Pagesホスティングサービス(ほぼ)完全活用ガイド](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/github-pages-almost-perfect-guide/#github-pages-ref3) 
