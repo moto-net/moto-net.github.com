@@ -54,4 +54,5 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 - [脱GitHub初心者を目指す人のREADMEマークダウン使いこなし術](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/markdown-skills-for-github-beginners/) 
 - [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/EditSite) (ローカルでの確認方法)
 
-master
+
+[master](http://coderwall.com/crazymaster)
