@@ -11,6 +11,7 @@ tagline: ~Jekyll入門~
  - **Windowsの場合** [GitHub for Windows](http://windows.github.com/)がオススメです  
  使い方は[github-for-windows-tutorial](http://chocolatina.github.com/github-for-windows-tutorial/)を参考にしましょう
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
+ - **Linuxの場合** [Ubuntu Weekly Recipe：第212回　Git/Bazaarブラウザあれこれ｜gihyo.jp … 技術評論社](http://gihyo.jp/admin/serial/01/ubuntu-recipe/0212) を参考にしましょう
 
 **2. レポジトリを取ってくる**
 

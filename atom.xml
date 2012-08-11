@@ -8,9 +8,8 @@ title : Atom Feed
  <title>{{ site.title }}</title>
  <link href="{{ site.production_url }}/atom.xml" rel="self"/>
  <link href="{{ site.production_url }}"/>
- <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon"/>
- <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <icon>http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13.png</icon>
  <id>{{ site.production_url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
