@@ -129,4 +129,4 @@ tagline: 覚えておきたいデジ絵の知識
 
 ----------
 
-記事作成：ensosarashi
+記事作成：ensosarashi（[プロフィール](http://coderwall.com/ensosarashi)）
