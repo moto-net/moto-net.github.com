@@ -2,7 +2,7 @@
 layout: post
 title: 記事投稿の仕方
 category: lessons
-tags: [intro, beginner, jekyll, tutorial, master]
+tags: [初心者向け, jekyll, master]
 tagline: ~Jekyll入門~
 ---
 
@@ -23,7 +23,7 @@ tagline: ~Jekyll入門~
 	|   |-- 20011-10-25-open-source-is-good.md
 	|   |-- 20011-04-26-hello-world.md
 
-このように\_postsのフォルダ内にyyyy-mm-dd-title.mdという形で追加していきます。
+このように\_postsのフォルダ内に`yyyy-mm-dd-title.md`という形で追加していきます。
 
 **yyyy-mm-dd-title.md**
 
@@ -59,6 +59,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 - [GitHub Pagesホスティングサービス(ほぼ)完全活用ガイド](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/github-pages-almost-perfect-guide/#github-pages-ref3) 
 - [脱GitHub初心者を目指す人のREADMEマークダウン使いこなし術](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/markdown-skills-for-github-beginners/) 
 - [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/EditSite) (ローカルでの確認方法)
+- [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 
 
 [master](http://coderwall.com/crazymaster)
