@@ -6,15 +6,18 @@ tags: [ コンピュータグラフィックス, 初心者向け, ensosarashi ]
 tagline: 覚えておきたいデジ絵の知識
 ---
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「パソコンでイラストを描いたよ！早速保存しなきゃ。」
+[homu_n]: http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png
+[mado_n]: http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「まどか、保存のときにファイル形式の使い分けはできているかしら？」
+![][mado_n]「パソコンでイラストを描いたよ！早速保存しなきゃ。」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「え？わたし、今まで全部ビットマップで保存していたけど…」
+![][homu_n]「まどか、保存のときにファイル形式の使い分けはできているかしら？」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「それはいけないわ。今から私がファイル形式について教えてあげる」
+![][mado_n]「え？わたし、今まで全部ビットマップで保存していたけど…」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「本当？やったぁ！」
+![][homu_n]「それはいけないわ。今から私がファイル形式について教えてあげる」
+
+![][mado_n]「本当？やったぁ！」
 
 
 ##目次
@@ -31,7 +34,7 @@ tagline: 覚えておきたいデジ絵の知識
 
 ----------
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「まずは、ファイル形式についておさらいしましょう」
+![][homu_n]「まずは、ファイル形式についておさらいしましょう」
 
 ファイル形式とは、コンピュータ上でデータをどのように扱うかを定めた規約のことです。
 文章、画像、音楽、動画、アプリケーションなど、用途に応じて細かく分類されています。
@@ -44,7 +47,7 @@ tagline: 覚えておきたいデジ絵の知識
 
 >![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/extension.png)
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「でも、どうして、ファイル形式を使い分ける必要があるの？」
+![][mado_n]「でも、どうして、ファイル形式を使い分ける必要があるの？」
 
 ファイル形式は、画像のものだけでも様々な種類がありますが、それぞれの形式に長所と短所があります。もし、不適切なファイル形式を選択してしまうと、画質が劣化したり、データ量がかさばるなどの弊害が生じます。
 
@@ -56,13 +59,13 @@ tagline: 覚えておきたいデジ絵の知識
 
 ----------
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「主な画像のファイル形式を表にまとめてみたわ」
+![][homu_n]「主な画像のファイル形式を表にまとめてみたわ」
 
 ![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/raster.png)
 
 ![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/vector.png)
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「ベクトル画像って何かな？」
+![][mado_n]「ベクトル画像って何かな？」
 
 ベクトル画像は、線や図形を座標データで描画する画像形式です。
 
@@ -71,7 +74,7 @@ tagline: 覚えておきたいデジ絵の知識
 Illustratorなどのソフトがないと扱う機会がないので、あまり馴染みのないファイル形式かもしれません。しかし、
 InkscapeやParaDrawなどといった無料でベクトル画像を描画できるソフトもあるので、興味のある方はチャレンジしてみてください。
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「表の各圧縮方法について説明しておくわ」
+![][homu_n]「表の各圧縮方法について説明しておくわ」
 
 - 非圧縮（画像に圧縮がかけられていない状態）
 
@@ -88,7 +91,7 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 	可逆圧縮のデータは、データを均一に圧縮するため、非可逆圧縮ほどの圧縮率はありません。
 	しかし、使用する際に画質が元の状態に戻るのは大きなメリットです。
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「透過ってアルファチャンネルのことだよね？」
+![][mado_n]「透過ってアルファチャンネルのことだよね？」
 
 表の透過の項目は、画像にアルファチャンネルが適応できるファイル形式であるかどうかを示しています。
 
@@ -100,7 +103,7 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 
 ----------
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「基本は作業用データと閲覧用データの両方を保存するのよ」
+![][homu_n]「基本は作業用データと閲覧用データの両方を保存するのよ」
 
 パソコンでイラストを描いている方は、きっと、Photoshop、GIMP、SAIといったソフトを使用していらっしゃることかと思います。
 こういったソフトには、アルファチャンネルやレイヤー情報などを記録した、ソフト固有のファイル形式（psd/xcf/saiなど）が存在します。
@@ -110,7 +113,7 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 
 デジタルのイラストレーションは、ソフト固有の作業用のファイル形式から、どの一般的な画像のファイル形式に保存するが重要になります。
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「やっぱりどの形式で保存すればいいか迷っちゃうよ」
+![][mado_n]「やっぱりどの形式で保存すればいいか迷っちゃうよ」
 
 主に利用される画像のファイル形式は、jpg、gif、pngの３つです。それぞれ得意な画像のタイプをまとめておきましたので、参考にしてみてください。
 
@@ -126,7 +129,7 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 
 	ベクトル画像やアニメ塗りのイラストといった、比較的ベタが多い画像を保存するのに優れています。オールラウンダーな性質を持つので、判断に困ったらこの形式で保存しておくとよいでしょう。
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「やってはいけない保存の方法をまとめておくわ」
+![][homu_n]「やってはいけない保存の方法をまとめておくわ」
 
 - ベタの多い画像をjpgで保存する
 
@@ -140,7 +143,7 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 
 	写真のような色数が多い画像をpng形式で保存すると、確かに画質はキープされますが、データ量が膨大になります。高圧縮率のjpg形式で保存しましょう。デジカメで撮影した写真の画像データがjpgなのも、jpgが写真の画像データの保存に適しているからです。
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「一度、複数の形式で保存してみるのはダメかな？」
+![][mado_n]「一度、複数の形式で保存してみるのはダメかな？」
 
 実際、判断の付きにくいことも結構あるので、この方法は意外と有効です。作業のファイルを破棄しなければ、様々な形式で保存できるので、遠慮なく試してみてください。jpgとpngの二つの形式で保存して、二つのファイルを比べてみれば、ここまで読んだあなたなら、どの形式で保存すればよいか分かると思います。
 
@@ -150,9 +153,9 @@ InkscapeやParaDrawなどといった無料でベクトル画像を描画でき�
 
 ----------
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「保存の設定にあるプログレッシブとインターレースってなあに？」
+![][mado_n]「保存の設定にあるプログレッシブとインターレースってなあに？」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「ほむ。ちょっと高度な設定なのだけど、一応紹介しておくわ」
+![][homu_n]「ほむ。ちょっと高度な設定なのだけど、一応紹介しておくわ」
 
 jpgを保存する際にはプログレッシブ、gifやpngを保存する際にはインターレースという設定の項目が見つかるかと思います。初心者の方はここの設定はいじらなくても別に何の問題もありません。どういう効果があるのか知りたい人以外は、説明を読み飛ばして結構です。
 
@@ -168,21 +171,21 @@ jpgを保存する際にはプログレッシブ、gifやpngを保存する際�
 
 ----------
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「まどか、ファイル形式の使い分けの重用さは理解できたかしら？」
+![][homu_n]「まどか、ファイル形式の使い分けの重用さは理解できたかしら？」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「うん、大体理解できたよ！」
+![][mado_n]「うん、大体理解できたよ！」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「特に、Webで扱う画像は、データ量に注意しなければならないわ」
+![][homu_n]「特に、Webで扱う画像は、データ量に注意しなければならないわ」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「画質とデータ量の妥協点をみつけることが必要なんだね」
+![][mado_n]「画質とデータ量の妥協点をみつけることが必要なんだね」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「困ったらjpgとpngの両方で保存」
+![][homu_n]「困ったらjpgとpngの両方で保存」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「両方を比べてどっちがいいかを判断するんだね」
+![][mado_n]「両方を比べてどっちがいいかを判断するんだね」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/homu_n.png)「そうよ。これならもう大丈夫ね」
+![][homu_n]「そうよ。これならもう大丈夫ね」
 
-![](http://cloud.github.com/downloads/ensosarashi/Icon/mado_n.png)「ありがとう、ほむらちゃん！」
+![][mado_n]「ありがとう、ほむらちゃん！」
 
 　
 
