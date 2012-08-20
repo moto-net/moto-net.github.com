@@ -20,8 +20,8 @@ tagline: ~Jekyll入門~
 
 	.
 	|-- _posts
-		|-- 20011-10-25-open-source-is-good.md
-		|-- 20011-04-26-hello-world.md
+	    |-- 20011-10-25-open-source-is-good.md
+	    |-- 20011-04-26-hello-world.md
 
 このように\_postsのフォルダ内に`yyyy-mm-dd-title.md`という形で追加していきます。
 
