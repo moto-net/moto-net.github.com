@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 記事投稿の仕方
-category: lessons
+category: Lessons
 tags: [初心者向け, jekyll, master]
 tagline: ~Jekyll入門~
 ---
