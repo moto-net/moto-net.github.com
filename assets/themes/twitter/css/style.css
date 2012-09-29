@@ -31,14 +31,19 @@ html, body {
   padding: 20px 20px 10px;
   margin: -20px -20px 20px;
 }
+.post-sharing{
+	height: 25px;
+	position: relative;
+	text-align: right;
+	vertical-align: middle;
+	right: 250px;
+	margin: 5px 0 -8px;
 
 .topbar .btn {
   border: 0;
 }
 
-
-/* tag_box ======================================================== */
-
+/* tag_box */
 .tag_box {
 	list-style:none;
 	margin:0;
@@ -85,7 +90,6 @@ html, body {
 }
 
 /* contact list*/	
-
 #contact_list {
 	list-style:none;
 	padding:0;
@@ -93,9 +97,7 @@ html, body {
 	text-align: left;
 }
 #contact_list li {
-
 }
-
 #contact_list li a{
 	line-height:2em;
 }
