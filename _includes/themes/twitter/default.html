@@ -24,20 +24,28 @@
 	<link rel="apple-touch-icon" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13">
 	<link rel="apple-touch-icon" sizes="72x72" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13?s=72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13?s=114.png">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    {% include JB/analytics %}
   </head>
 
   <body>
 
     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
+		  <div class="container">
+			  <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+			  <ul class="nav">
+				  {% assign pages_list = site.pages %}
+				  {% assign group = 'navigation' %}
+				  {% include JB/pages_list %}
+			  </ul>
+			  <form class="navbar-search pull-right" method="get" action="https://www.google.co.jp/search">
+				  <input type="text" name="q" class="search-query" placeholder="Search">
+				  <input type="hidden" name="q" value="site:moto-net.github.com">
+			  </form>
+		  </div>
       </div>
     </div>
 
@@ -56,6 +64,5 @@
 
 	</div> <!-- /container -->
 
-    {% include JB/analytics %}
   </body>
 </html>
