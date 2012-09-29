@@ -48,6 +48,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 
  - [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
    (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
+ - [リアルタイムプレビュー対応の国産“Markdown”エディター「MarkDown#Editor」](http://www.forest.impress.co.jp/docs/review/20120905_557582.html) (Windows用)
  - [リアルタイムプレビューにも対応、“Markdown”専用のエディター「MarkdownPad」](http://www.forest.impress.co.jp/docs/review/20111020_485035.html) (Windows用)
  - [Markdown - Wikipedia](http://ja.wikipedia.org/wiki/Markdown)
  - [Markdown の記法](http://technetium.matrix.jp/markdown.html)
@@ -60,6 +61,8 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 - [脱GitHub初心者を目指す人のREADMEマークダウン使いこなし術](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/markdown-skills-for-github-beginners/) 
 - [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/EditSite) (ローカルでの確認方法)
 - [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
+- [WordPressよりjekyllで本格的ブログを作りたくなる、かもしれないまとめ](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/making-blog-with-jekyll/)
 
+---
 
 [master](http://coderwall.com/crazymaster)
