@@ -34,10 +34,8 @@ html, body {
 .post-sharing{
 	height: 25px;
 	position: relative;
-	text-align: right;
+	text-align: left;
 	vertical-align: middle;
-	right: 250px;
-	margin: 5px 0 -8px;
 }
 .topbar .btn {
   border: 0;
