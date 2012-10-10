@@ -30,4 +30,4 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
 また、当サイトオリジナルの画像の転載は、具体的に使用したい画像などの情報を押したせください。許可がおり次第、転載は自由に行なっていただいて構いません（但しアダルトサイトは除く）。
 
 ##### 連絡先 <hr size="1" />
-moto-net☆googlegroups.com（☆を@に変えてください）
+[moto-netメーリングリスト](https://groups.google.com/d/forum/moto-net)
