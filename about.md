@@ -15,6 +15,8 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
 インターネット部員向けに、かつ一般の方にも役に立つような情報を提供できることを目指した記事。  
 ジャンルは主に『PC』『イラスト』『動画』の３本柱。
 
+<br>
+
 ## メニューのご説明 <hr size="1" />
  - 画面上部  
 
@@ -91,5 +93,9 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
 
 また、当サイトオリジナルの画像の転載は、具体的に使用したい画像などの情報を押したせください。許可がおり次第、転載は自由に行なっていただいて構いません（但しアダルトサイトは除く）。
 
+<br>
+
+
 ## 連絡先 <hr size="1" />
+moto-netあっとまーくgooglegroups.com  
 [moto-netメーリングリスト](https://groups.google.com/d/forum/moto-net)
