@@ -34,7 +34,7 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
         </tr>
         <tr>
             <td>About</td>
-            <td>このページです。ご案内とかそんなの。</td>
+            <td>このページです。ご案内です。</td>
         </tr>
         <tr>
             <td>Categories</td>
