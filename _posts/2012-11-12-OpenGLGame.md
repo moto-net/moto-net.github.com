@@ -2,7 +2,7 @@
 layout: post
 title: OpenGLを使ってゲームを作ろう
 category: Programing
-tags: [ OpenGL ]
+tags: [ OpenGL, oyas ]
 tagline: 3Dゲームプログラミングに挑戦
 ---
 
@@ -57,6 +57,9 @@ Xファイル読み込みの実装の時に参考にさせてもらいました�
 
 [OpenGLプログラミングメモ](http://www21.atwiki.jp/opengl/)  
 現在も更新中。僕はほとんど見なかったのですが、だいぶ参考になると思います。
+
+[ゲームつくろー！](http://marupeke296.com/GameMain.html)  
+いろいろ詳しいです。衝突判定はここを参考にしました。
 
 [OpenGLと行列について](http://www.slideshare.net/miyosuda/opengl)  
 OpenGLをやってると目にする「行列」や、OpenGLの内部処理に興味を持ったら見てください。
@@ -214,5 +217,5 @@ commit一覧が表示されます。今黄色くなっているコミットで�
 OpenGLは、機能としてはほぼ「ポリゴンを表示する」しかないので、モデルファイルを読み込むことや、物理運動をさせることなどは、すべて自分で実装しなければなりません。そこが大変で楽しいところです。
 ぜひ、いい3Dゲームを完成させてください。
 
-oyas
+[oyas](http://coderwall.com/oyas)
 
