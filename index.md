@@ -2,6 +2,7 @@
 layout: page
 title: Hello World!
 tagline: Welcome to Internet Club.
+description: 基町高校インターネット部Blog
 ---
 {% include JB/setup %}
 
