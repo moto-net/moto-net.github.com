@@ -195,7 +195,7 @@ wgetが使えない場合は手動でダウンロード、unzipが使えない�
 
 ![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/2012-11-12_02.png)
 
-図の赤い四角で囲まれたとこを順にクリックしていきます。タグ一覧が表示されるので、読みたいタグをクリックしてください。すると、そのときのレポジトリに変わります。
+図の赤い四角で囲まれたとこを順にクリックしていきます。タグ一覧が表示されるので、読みたいタグをクリックしてください。すると、そのときのリポジトリに変わります。
 
 ![](http://cloud.github.com/downloads/moto-net/moto-net.github.com/2012-11-12_04.png)
 

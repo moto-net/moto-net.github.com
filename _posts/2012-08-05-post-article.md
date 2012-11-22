@@ -13,7 +13,7 @@ tagline: ~Jekyll入門~
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
  - **Linuxの場合** [Ubuntu Weekly Recipe：第212回　Git/Bazaarブラウザあれこれ｜gihyo.jp … 技術評論社](http://gihyo.jp/admin/serial/01/ubuntu-recipe/0212) を参考にしましょう
 
-**2. レポジトリを取ってくる**
+**2. リポジトリを取ってくる**
 
 **3. 記事を書く**  
 以下のディレクトリ構造は例ですが、
