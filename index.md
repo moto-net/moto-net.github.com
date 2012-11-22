@@ -2,7 +2,7 @@
 layout: page
 title: Hello World!
 tagline: Welcome to Internet Club.
-description: 基町高校インターネット部Blog
+description: 基町高校インターネット部Blog パソコンやイラスト、動画制作やプログラミングなどの役立つ知識が集まるブログ。
 ---
 {% include JB/setup %}
 
