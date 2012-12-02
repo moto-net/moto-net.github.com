@@ -133,3 +133,5 @@ tagline: 覚えておきたいデジ絵の知識
 ----------
 
 記事作成：ensosarashi（[プロフィール](http://coderwall.com/ensosarashi)）
+
+出演キャラ：まどか、ほむら（[魔法少女まどか☆マギカ](http://www.madoka-magica.com/)）
