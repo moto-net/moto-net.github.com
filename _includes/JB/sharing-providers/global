@@ -1,4 +1,4 @@
-<div id="fb-root"></div>
+<div id="fb-root" style="display: none;"></div>
 <!-- Twitter -->
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }} - {{ site.title }}" data-via="{{ site.JB.sharing.twitter.via }}" data-related="{{ site.author.twitter }}" data-count="{{ site.JB.sharing.twitter.count }}" data-size="{{ site.JB.sharing.twitter.size }}" data-lang="ja">Tweet</a>
 
