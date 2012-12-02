@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenGLを使ってゲームを作ろう
-category: Programing
+category: Programming
 tags: [ OpenGL, oyas ]
 tagline: 3Dゲームプログラミングに挑戦
 ---
