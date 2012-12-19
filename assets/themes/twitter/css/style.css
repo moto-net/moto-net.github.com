@@ -2,6 +2,9 @@
 html, body {
   background-color: #eee;
 }
+body{
+  padding-bottom: 10px;
+}
 .navbar {
   margin-bottom: 0;
 }
