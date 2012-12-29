@@ -59,7 +59,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 ###参考ページ
 - [GitHub Pagesホスティングサービス(ほぼ)完全活用ガイド](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/github-pages-almost-perfect-guide/) 
 - [脱GitHub初心者を目指す人のREADMEマークダウン使いこなし術](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/markdown-skills-for-github-beginners/) 
-- [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/EditSite) (ローカルでの確認方法)
+- [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/Edit-Site) (ローカルでの確認方法)
 - [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 - [WordPressよりjekyllで本格的ブログを作りたくなる、かもしれないまとめ](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/making-blog-with-jekyll/)
 
