@@ -27,17 +27,15 @@ tagline: ~Jekyll入門~
 
 **yyyy-mm-dd-title.md**
 
-```yaml
----
-layout: post
-title: タイトル
-category: lessons
-tags: [beginner, jekyll, tutorial]
-tagline: タグライン
----
+	---
+	layout: post
+	title: タイトル
+	category: lessons
+	tags: [beginner, jekyll, tutorial]
+	tagline: タグライン
+	---
 
-内容
-```
+	内容
 
 ####注意
  - ファイル名に日本語は不可
