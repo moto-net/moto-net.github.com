@@ -169,8 +169,8 @@ glpngのインストールはおそらく先程とほぼ同じ方法でいけま
 	$ cd src/
 	$ make -f Makefile.LINUX
 	$ cd ../
-	$ sudo cp lib/libglpng.a C:/MinGW/lib/
-	$ sudo cp include/GL/glpng.h C:/MinGW/include/GL/
+	$ cp lib/libglpng.a C:/MinGW/lib/
+	$ cp include/GL/glpng.h C:/MinGW/include/GL/
 	$ cd ../
 	$ rm -rf tmp/
 
