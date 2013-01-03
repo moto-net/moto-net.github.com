@@ -82,26 +82,21 @@ OpenGLのゲームを作るために必要なものを揃えましょう。
 ###Ubuntuにインストール
 
 端末を開いて、以下のコマンドを入力してください。
-
-```bash
-$ sudo apt-get install freeglut3 freeglut3-dev g++
-```
+	
+	$ sudo apt-get install freeglut3 freeglut3-dev g++
 	
 これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALとglpngのインストールが必要です。端末で続けて以下のコマンドを実行します。(glpngのパッケージはないみたいなので手動インストールとなります)
 
-```bash
-$ sudo apt-get install libalut-dev
-$ mkdir /tmp/glpng
-$ cd /tmp/glpng
-$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
-$ unzip glpng.zip
-$ cd src/
-$ make -f Makefile.LINUX
-$ cd ../
-$ sudo cp lib/libglpng.a /usr/lib/
-$ sudo cp include/GL/glpng.h /usr/include/GL/
-```
-	
+	$ sudo apt-get install libalut-dev
+	$ mkdir /tmp/glpng
+	$ cd /tmp/glpng
+	$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
+	$ unzip glpng.zip
+	$ cd src/
+	$ make -f Makefile.LINUX
+	$ cd ../
+	$ sudo cp lib/libglpng.a /usr/lib/
+	$ sudo cp include/GL/glpng.h /usr/include/GL/
 
 
 ###Windowsにインストール
@@ -167,19 +162,17 @@ OpenALのインストールはここを参考に。
 
 glpngのインストールはおそらく先程とほぼ同じ方法でいけます。コマンドプロンプトから、
 
-```bash
-$ mkdir tmp
-$ cd tmp
-$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
-$ unzip glpng.zip
-$ cd src/
-$ make -f Makefile.LINUX
-$ cd ../
-$ cp lib/libglpng.a C:/MinGW/lib/
-$ cp include/GL/glpng.h C:/MinGW/include/GL/
-$ cd ../
-$ rm -rf tmp/
-```
+	$ mkdir tmp
+	$ cd tmp
+	$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
+	$ unzip glpng.zip
+	$ cd src/
+	$ make -f Makefile.LINUX
+	$ cd ../
+	$ cp lib/libglpng.a C:/MinGW/lib/
+	$ cp include/GL/glpng.h C:/MinGW/include/GL/
+	$ cd ../
+	$ rm -rf tmp/
 
 wgetが使えない場合は手動でダウンロード、unzipが使えない場合は手動で解凍してください。
 
