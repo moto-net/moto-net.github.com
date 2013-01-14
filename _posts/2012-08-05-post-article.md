@@ -2,7 +2,7 @@
 layout: post
 title: 記事投稿の仕方
 category: Lessons
-tags: [初心者向け, jekyll, master]
+tags: [初心者向け, jekyll, git, master]
 tagline: ~Jekyll入門~
 ---
 
@@ -13,7 +13,7 @@ tagline: ~Jekyll入門~
  - **Macの場合** [GitHub for Mac](http://mac.github.com/)がオススメです
  - **Linuxの場合** [Ubuntu Weekly Recipe：第212回　Git/Bazaarブラウザあれこれ｜gihyo.jp … 技術評論社](http://gihyo.jp/admin/serial/01/ubuntu-recipe/0212) を参考にしましょう
 
-**2. レポジトリを取ってくる**
+**2. リポジトリを取ってくる**
 
 **3. 記事を書く**  
 以下のディレクトリ構造は例ですが、
@@ -27,15 +27,17 @@ tagline: ~Jekyll入門~
 
 **yyyy-mm-dd-title.md**
 
-	---
-	layout: post
-	title: タイトル
-	category: lessons
-	tags: [beginner, jekyll, tutorial]
-	tagline: タグライン
-	---
+```yaml
+---
+layout: post
+title: タイトル
+category: lessons
+tags: [beginner, jekyll, tutorial]
+tagline: タグライン
+---
 
-	内容
+内容
+```
 
 ####注意
  - ファイル名に日本語は不可
@@ -48,6 +50,7 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 
  - [Showdown - Markdown in Javascript](http://pamgau.net/showdown/)
    (オンラインでMarkdown表記をHTMLに変換してくれて、リアルタイムのプレビューが可能です。)
+ - [リアルタイムプレビュー対応の国産“Markdown”エディター「MarkDown#Editor」](http://www.forest.impress.co.jp/docs/review/20120905_557582.html) (Windows用)
  - [リアルタイムプレビューにも対応、“Markdown”専用のエディター「MarkdownPad」](http://www.forest.impress.co.jp/docs/review/20111020_485035.html) (Windows用)
  - [Markdown - Wikipedia](http://ja.wikipedia.org/wiki/Markdown)
  - [Markdown の記法](http://technetium.matrix.jp/markdown.html)
@@ -56,10 +59,12 @@ Markdown記法はとても簡単なので以下のサイトを参考に試して
 **4. コミットして、pushする(公開する)**
 
 ###参考ページ
-- [GitHub Pagesホスティングサービス(ほぼ)完全活用ガイド](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/github-pages-almost-perfect-guide/#github-pages-ref3) 
+- [GitHub Pagesホスティングサービス(ほぼ)完全活用ガイド](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/github-pages-almost-perfect-guide/) 
 - [脱GitHub初心者を目指す人のREADMEマークダウン使いこなし術](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/markdown-skills-for-github-beginners/) 
-- [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/EditSite) (ローカルでの確認方法)
+- [サイト編集の仕方](https://github.com/moto-net/moto-net.github.com/wiki/Edit-Site) (ローカルでの確認方法)
 - [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
+- [WordPressよりjekyllで本格的ブログを作りたくなる、かもしれないまとめ](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/making-blog-with-jekyll/)
 
+---
 
 [master](http://coderwall.com/crazymaster)
