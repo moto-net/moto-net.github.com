@@ -2,6 +2,7 @@
 layout: page
 title: About 
 group: navigation
+icon: '<i class="icon-info-sign icon-white"></i> '
 ---
 {% include JB/setup %}
 
