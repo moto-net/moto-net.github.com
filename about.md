@@ -84,6 +84,10 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
       <td>執筆者一覧とそのプロフィールをご覧になれます。</td>
     </tr>
     <tr>
+      <td>Google グループ</td>
+      <td>Internet Clubの公開メーリングリストです。</td>
+    </tr>
+    <tr>
       <td>Feed</td>
       <td>このサイトのFeedを取得できます。</td>
     </tr>
