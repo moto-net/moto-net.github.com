@@ -2,7 +2,7 @@
 layout: post
 title: 画像の解像度のハナシ
 category: Graphics
-tags: [ コンピュータグラフィックス, 初心者向け, ovservatory17 ]
+tags: [ コンピュータグラフィックス, 初心者向け, observatory17 ]
 tagline: 覚えておきたいデジ絵の知識
 ---
 
