@@ -9,7 +9,7 @@ icon: '<i class="icon-info-sign icon-white"></i> '
 ## このサイトについて
 ---
 このサイトは、インターネット部に所属中、または所属していた複数の執筆者により、複数のジャンルに渡る記事が投稿されるブログ。リンクフリーです。  
-InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確認済み。
+Internet Explorer、Firefox、Google Chrome、Operaの各最新版での動作確認済み。
 
 <br>
 
