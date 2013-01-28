@@ -2,13 +2,14 @@
 layout: page
 title: About 
 group: navigation
+icon: '<i class="icon-info-sign icon-white"></i> '
 ---
 {% include JB/setup %}
 
 ## このサイトについて
 ---
 このサイトは、インターネット部に所属中、または所属していた複数の執筆者により、複数のジャンルに渡る記事が投稿されるブログ。リンクフリーです。  
-InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確認済み。
+Internet Explorer、Firefox、Google Chrome、Operaの各最新版での動作確認済み。
 
 <br>
 
@@ -81,6 +82,10 @@ InternetExplorer、Firefox、GoogleChrome、Operaの各最新版での動作確�
     <tr>
       <td>Coderwall</td>
       <td>執筆者一覧とそのプロフィールをご覧になれます。</td>
+    </tr>
+    <tr>
+      <td>Google グループ</td>
+      <td>Internet Clubの公開メーリングリストです。</td>
     </tr>
     <tr>
       <td>Feed</td>
