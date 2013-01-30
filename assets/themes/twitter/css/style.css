@@ -5,6 +5,13 @@ html, body {
 body{
   padding-bottom: 10px;
 }
+a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -21,11 +28,11 @@ body{
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
 /* Page header tweaks */
@@ -35,10 +42,10 @@ body{
   margin: -20px -20px 20px;
 }
 .post-sharing{
-	height: 25px;
-	position: relative;
-	text-align: left;
-	vertical-align: middle;
+  height: 25px;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
 }
 .topbar .btn {
   border: 0;
@@ -46,67 +53,67 @@ body{
 
 /* tag_box */
 .tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
+  list-style:none;
+  margin:0;
+  padding:5px 0 ;
+  overflow:hidden;
 }
 .tag_box li {
-	line-height:28px;
+  line-height:28px;
 }
 .tag_box.inline li {
-	float:left;
+  float:left;
 }
 .tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color:#005F6B;
+  border-radius: 3px;
+  text-decoration:none;
 }
 .tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
+  vertical-align:super;
+  font-size:0.8em;
 }
 .tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
 }
 
 /* sidebar*/
 #custom_sidebar {
-	width:150px;
-	text-align: left;
-	margin: 20px 0;
+  width:150px;
+  text-align: left;
+  margin: 20px 0;
 }
 #custom_sidebar p{
-	font-size:11px;
+  font-size:11px;
 }
 #me {
-	background:#FFF;
-	padding:2px;
-	border:1px solid #ccc;
+  background:#FFF;
+  padding:2px;
+  border:1px solid #ccc;
 }
 
 /* contact list*/	
 #contact_list {
-	list-style:none;
-	padding:0;
-	margin:0;
-	text-align: left;
+  list-style:none;
+  padding:0;
+  margin:0;
+  text-align: left;
 }
 #contact_list li {
 }
 #contact_list li a{
-	line-height:2em;
+  line-height:2em;
 }
 #contact_list li a img {
-	float:right;
-	width:20px;
-	height:20px;
-	vertical-align:middle;
-	padding-left:7px;
-	border:0;
+  float:right;
+  width:20px;
+  height:20px;
+  vertical-align:middle;
+  padding-left:7px;
+  border:0;
 }
