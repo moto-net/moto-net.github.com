@@ -2,9 +2,8 @@
 
 {% case site.JB.sharing.provider %}
 {% when "all" %}
-	{% include JB/sharing-providers/global %}
-	{% include JB/sharing-providers/linkedin %}
-	{% include JB/sharing-providers/reddit %}
+  {% include JB/sharing-providers/global %}
+  {% include JB/sharing-providers/linkedin %}
 {% when "custom" %}
   {% include custom/sharing %}
 {% endcase %}
