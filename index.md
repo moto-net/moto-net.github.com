@@ -2,14 +2,9 @@
 layout: page
 title: Hello World!
 tagline: Welcome to Internet Club.
-description: 基町高校インターネット部Blog パソコンやイラスト、動画制作やプログラミングなどの役立つ知識が集まるブログ。
+description: インターネット部Blog パソコンやイラスト、動画制作やプログラミングなどの役立つ知識が集まるブログ。
 ---
 {% include JB/setup %}
-
-##Project一覧
-- [インターネット部Webサイト2011](http://moto-net.github.com/internet2011) 
-- [インターネット部Webサイト2012](http://moto-net.github.com/internet2012)
-- [インターネット部Webサイト2013 (準備中)](http://moto-net.github.com/internet2013)
 
 
 ## 最近の投稿
