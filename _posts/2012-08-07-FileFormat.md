@@ -171,4 +171,4 @@ PhotoShopなどで画像を保存する際に、jpg形式で保存する際に�
 
 ----------
 
-記事作成：observatory17
+Author: [observatory17](https://coderwall.com/observatory17)

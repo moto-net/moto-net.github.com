@@ -91,4 +91,4 @@ tagline: 覚えておきたいデジ絵の知識
 
 ----------
 
-記事作成：observatory17
+Author: [observatory17](https://coderwall.com/observatory17)
