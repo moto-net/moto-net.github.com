@@ -103,9 +103,9 @@ InkscapeやParaDrawなどの無料でベクトル画像を編集できるソフ�
 
 >**参考：アルファチャンネルと画像の重なりの一例**
 
->![](http://dl.dropbox.com/s/wfg0yafm3j32mjp/04.jpg) ![](http://dl.dropbox.com/s/vzutta45n68ui0o/05.jpg)
+><div style="background-image:url(http://dl.dropbox.com/s/6t8mlyerxnh95jy/04.gif);height:210;width:420;"><img src="http://dl.dropbox.com/s/pki3ulpizxtbfz2/05.gif" style="margin:15px;"><img src="http://dl.dropbox.com/s/5xhxtntfy0ae01a/06.jpg" style="margin:15px;"></div>
 
->背景の空の上に鳥と文字の画像を重ねています。左がアルファチャンネルが未適応の場合、右が前景の画像にアルファチャンネルを適応させた場合を再現したものです。
+>背景のギンガムチェックの上に2種類の画像形式のドーナツを重ねています。左がgif形式（アルファチャンネル対応）、右がjpg形式（アルファチャンネル非対応）です。
 
 　
 
