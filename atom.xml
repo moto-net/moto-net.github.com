@@ -9,7 +9,7 @@ title : Atom Feed
  <link href="{{ site.production_url }}/atom.xml" rel="self"/>
  <link href="{{ site.production_url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <icon>/assets/images/favicon.ico</icon>
+ <icon>{{ site.production_url }}/assets/images/favicon.ico</icon>
  <id>{{ site.production_url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
