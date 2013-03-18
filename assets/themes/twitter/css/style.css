@@ -17,6 +17,42 @@ a {
           transition: all 0.2s ease-out;
 }
 
+table {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table thead th {
+  vertical-align: bottom;
+}
+
+table thead:first-child tr th,
+table thead:first-child tr td {
+  border-top: 0;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+table tbody tr:hover td,
+table tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -120,13 +156,13 @@ a {
 }
 
 /* contact list*/
+
 #contact_list {
   padding: 0;
   margin: 0;
   text-align: left;
   list-style: none;
 }
-
 
 #contact_list li a {
   line-height: 2em;
