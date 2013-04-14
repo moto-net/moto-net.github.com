@@ -1,7 +1,7 @@
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
-  _gaq.push(['_setDomainName', 'github.com']);
+  _gaq.push(['_setDomainName', '{{ site.author.github }}.github.com']);
   _gaq.push(['_setAllowLinker', true]);
   _gaq.push(['_trackPageview']);
 
