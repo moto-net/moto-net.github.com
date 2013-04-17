@@ -4,6 +4,8 @@
 {% when "all" %}
   {% include JB/sharing-providers/global %}
   {% include JB/sharing-providers/linkedin %}
+{% when "zenback" %}
+  {% include JB/sharing-providers/zenback %}
 {% when "custom" %}
   {% include custom/sharing %}
 {% endcase %}
