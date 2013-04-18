@@ -16,14 +16,16 @@
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet">
 
-    <link href="{{ HOME_PATH }}atom.xml" rel="alternate" title="Internet Club" type="application/atom+xml">
-
     <!-- Le fav and touch icons -->
     <link rel="apple-touch-icon" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13">
     <link rel="apple-touch-icon" sizes="72x72" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13?s=72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="http://www.gravatar.com/avatar/3d751d1818141eabc5e41f77e7873e13?s=114.png">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="RSS Feed">
 
     {% include JB/analytics %}
   </head>
