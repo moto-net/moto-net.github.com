@@ -2,7 +2,7 @@
 layout: post
 title: 2012年度分アクセス解析
 tags: [master, Google Analytics]
-category: PC
+category: Web
 ---
 
 気づいたら4月ももう後半ですね。
