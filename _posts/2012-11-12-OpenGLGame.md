@@ -6,6 +6,7 @@ tags: [ OpenGL, oyas ]
 tagline: 3Dゲームプログラミングに挑戦
 ---
 
+<font color="red">2013/5/12 インストールの項目を修正。Windowsへのインストール方法を確認して載せました。</font>
 
 こんにちは、oyasです。今回は、OpenGLを使ってのゲーム作りに挑戦します。
 といっても、ほぼ参考サイトの紹介となります。
@@ -77,7 +78,6 @@ OpenGLのゲームを作るために必要なものを揃えましょう。
 - g++	・・・　C++のコンパイラ。
 - GLUT	・・・　ウィンドウの表示。OpenGLの補助機能。今回は互換性のあるfreeglutを使う。
 - ALUT	・・・　サウンド再生。BGMの再生用。
-- glpng	・・・　png画像の読み込み。
 
 ###Ubuntuにインストール
 
@@ -87,72 +87,134 @@ OpenGLのゲームを作るために必要なものを揃えましょう。
 $ sudo apt-get install freeglut3 freeglut3-dev g++
 ```
 	
-これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALとglpngのインストールが必要です。端末で続けて以下のコマンドを実行します。(glpngのパッケージはないみたいなので手動インストールとなります)
+これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALのインストールが必要です。端末で続けて以下のコマンドを実行します。
 
 ```bash
 $ sudo apt-get install libalut-dev
-$ mkdir /tmp/glpng
-$ cd /tmp/glpng
-$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
-$ unzip glpng.zip
-$ cd src/
-$ make -f Makefile.LINUX
-$ cd ../
-$ sudo cp lib/libglpng.a /usr/lib/
-$ sudo cp include/GL/glpng.h /usr/include/GL/
 ```
 	
 
 
 ###Windowsにインストール
 
-Windowsにインストールしたのはだいぶ前で、どういれたのか忘れてしまいました。
-そして今はWindowsが使えない状態なので、確認ができません。
-ネットでそれらしい情報はさがしたのですが、うまくいくかは未確認です。すみません。
 
 #### MinGWのインストール
 
 WindowsではMinGWを使ってコンパイルしたいと思うので、まずそれをインストールしてください。
 MinGWは、フリーのコンパイラであるGCCを、Windowsアプリケーションの開発のために利用できる。（Wikipedia）とあります。GCCはUbuntuに標準で含まれているコンパイラです。
 要は、WindowsでもUbuntuと同じように開発できるようにしましょう、ということです。
-インストールは以下のページを参考にしてください。
 
-[Windows 7にMinGWをインストールする(mingw-get-inst使用)](http://symfoware.blog68.fc2.com/blog-entry-797.html)
+参考サイト  
+<http://yoshiiz.blog129.fc2.com/blog-entry-383.html>
 
-[ODE講座２：インストール（フリーのWindows開発環境：MinGW)](http://demura.net/9ode/326.html)  
-ODEのインストールは必要ないです。
+インストール手順
 
-[MinGWとGLUTとGLUIでOpenGL始めよう！](http://oni-zine.net/?p=745)
+1. MinGWのサイトでインストーラーを入手
+	
+	<http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/>  
+	中程にある「Looking for the latest version?」の横にあるリンクからダウンロードページへ行ってください。2013/05/12時点では「Download mingw-get-inst-20120426.exe(662.7kB)」というリンクになっています。
 
-[Windows で MinGW バージョン 20110530 のインストールとテスト実行](http://www.kkaneko.com/rinkou/cygwin/mingw.html)
+2. インストーラーを起動。
+	
+	ダウンロードした実行ファイルを起動するとこんな感じです。  
+	![](http://dl.dropbox.com/s/x4ca64jk3bdfwvh/01.png)
 
-リンク切れしてたり、内容が変わってたりするのもありますね。。
+3. NEXTを押しまくる
+	
+	Welcome to The MinGW-Get Setup Wizard
 
-MinGWのダウンロードページは、わかりにくいかもしれませんが、おそらく、  
-<http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/>  
-の中の最新版の.exeファイルがインストーラーだと思うのでそれをダウンロードしてください。
+	↓ NEXT
 
-ちなみに、「MinGW base tools」 「g++ compiler」 「MinGW Make」は必須ですので、
-MinGWのインストール中にチェックをいれるのを忘れないようにしてください。
+	Administrator Install
 
-MSYSは、MinGWのインストーラーからインストールできるみたい（？）です。
+	↓ NEXT
 
-MSYSはいらないのかな。かもしれないです。インストール方法がわからなかったらとばしましょう。
+	Repository Catalogues  
+	パッケージを最新版のにするか聞かれるが、最新のインストーラーなら必要ないのでそのままにしておく。
+		
+	↓ NEXT
+
+	License Agreement  
+	「I accept the agreement」を選択する。
+
+	↓ NEXT
+	
+	Select Destination Location  
+	MinGWのインストール先フォルダを聞かれる。初期設定でいいと思います。
+	(1.9GB以上の空き領域が必要だそうです)
+		
+	↓ NEXT
+	
+	Select Start Menu Folder  
+	スタートメニューに指定した名前のフォルダを作ります。
+	そこへ「MinGW Shell」へのリンクが作られます。
+	下のチェックボックスにチェックをいれると、フォルダを作りません。
+		
+	↓ NEXT
+	
+	Select Components  
+	![](http://dl.dropbox.com/s/ljiwju6u4govhcj/02.png)  
+	「C++ Compiler」「MSYS Basic System」「MinGW Developer ToolKit」の３つにチェックをいれます。
+	ちなみにここで選択しなかったものも後でmingw-getコマンドで追加できます。
+		
+	↓ NEXT
+	
+	Ready to Install
+
+	↓ NEXT
+	
+	黒い画面が出ますが、怖がらずに見守りましょう。  
+	![](http://dl.dropbox.com/s/1k4ylg6o9fu7fij/03.png)
+	
+	↓ 
+	
+	Completing the MinGW-Get Setup Wizard
+	
+	↓ Finish
+	
+	終わり。最後のチェックをいれてると、黒い画面に表示されてた内容がテキストエディタで開かれます。
+
+
+4. 環境変数の設定
+
+	しなくても大丈夫ですが、設定すると、コマンドプロンプトからMSYSと同じコマンドが使えたり、DLLを実行ファイルと同じフォルダに入れておかなくても、C:\MinGW\bin等へ入れておけばいいようになります。
+
+	システムのプロパティ→「詳細設定」タブ→「環境変数」ボタン から設定できます。環境変数「PATH」の最後に「;C:\MinGW\bin;C:\MinGW\msys\1.0\bin」を追加します。
+
+5. 実行できるか確認
+
+	スタートメニューの「MinGW」→ 「MinGW Shell」 でMSYSが起動すればOK。
+
+	![](http://dl.dropbox.com/s/akub8n4szgkc6wp/05.png)
 
 
 #### fleeglutのインストール
 
-[MinGWでOpenGLやGLUTを使ってみる](http://d.hatena.ne.jp/tana-laevatein/20091227/1261942906)
+以下のページからバイナリファイルをダウンロードしてきましょう。
 
-バージョンが2.8.0に上がっているみたいですね。
+<http://www.transmissionzero.co.uk/software/freeglut-devel/>
 
-最後、freeglut.dllをどこかパスが通っているフォルダに入れるのですが、どこかわからなかったら、
-ゲームの実行ファイルと同じディレクトリでもいいです。
+「freeglut 2.8.1 MinGW Package」のとこの「Download freeglut 2.8.1-1 for MinGW」のリンクをクリックするとダウンロードできます。
+バージョン番号は変わっているかもしれません。
+
+展開したあと、中身の「bin」「lib」「include」をC:\MinGW\以下へコピーしてください。
+このとき各フォルダの中の「x64」フォルダは、コピーしないでください。
+(僕の環境は64bitでしたが、うまく動かなかったんで、今回はどの環境でも「x64」フォルダの中身は使わないことにしましょう。)
+
+これでfreeglutのインストールは完了です。
+
+ここまでで、下に載せたサンプルゲームは動きます。
+
+SKSunshineを動かしたい場合は、つづけて「OpenAL」もインストールしましょう。
+
+
+
 
 
 #### その他のインストール
+<font color="red">近日訂正予定</font>
 
-これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALとglpngのインストールが必要です。
+これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALのインストールが必要です。
 
 OpenALのインストールはここを参考に。
 
@@ -165,23 +227,7 @@ OpenALのインストールはここを参考に。
 
 ちなみに、「alut.dll」「OpenAL32.dll」は、ゲームの実行ファイルと同じディレクトリに入れても動きます。
 
-glpngのインストールはおそらく先程とほぼ同じ方法でいけます。コマンドプロンプトから、
 
-```bash
-$ mkdir tmp
-$ cd tmp
-$ wget ftp://ftp.usa.openbsd.org/pub/OpenBSD/distfiles/glpng-1.45/glpng.zip
-$ unzip glpng.zip
-$ cd src/
-$ make -f Makefile.LINUX
-$ cd ../
-$ cp lib/libglpng.a C:/MinGW/lib/
-$ cp include/GL/glpng.h C:/MinGW/include/GL/
-$ cd ../
-$ rm -rf tmp/
-```
-
-wgetが使えない場合は手動でダウンロード、unzipが使えない場合は手動で解凍してください。
 
 それと、GLEWも必要だった気がするので入れておきましょう。  
 [MinGWでglewを入れる](http://d.hatena.ne.jp/Inuneco/20110716/p1)
@@ -191,12 +237,50 @@ wgetが使えない場合は手動でダウンロード、unzipが使えない�
 簡単なゲーム
 ------
 
-ソースコードはここにおいてあります。  
+ソースコードはここにおいておきます。  
 [OpenGLGame](https://github.com/oyas/OpenGLGame)
 
 詳しい解説はできませんが、根気よくやれば読めるはずです。
 
-###読み進め方
+###とりあえず動かしてみよう
+
+まずは、上に載せたリンク先で、ソースコードをダウンロードします。
+「OpenGLをつかった簡単なゲーム」と書かれたとこの下の「ZIP」をクリックすればダウンロードできます。
+
+#### Ubuntuで動かす
+
+端末を開いて、先程ダウンロードしたZIPを展開したディレクトリに移り、以下のコマンドを実行します。
+
+	$ make
+	$ ./a.out
+
+これでゲームが起動すれば成功です。
+
+#### Windowsで動かす
+
+展開したものを「C:\MinGW\msys\1.0\home\(ユーザー名)\」へ移します。
+フォルダ名は「OpenGLGame」に改名してください。
+MSYSを起動し、以下のコマンドを入力します。
+
+	$ cd OpenGLGame
+	$ make win
+	$ a.exe
+	
+これでゲームが起動すれば成功です。  
+
+![](http://dl.dropbox.com/s/p08vc7oy7t0xw2f/04.png)
+
+ちなみに、操作方法は以下のとおりです。
+
+	w : 前進
+	s : 後退
+	a : 左回転
+	d : 右回転
+	スペースキー : ジャンプ
+
+時間内にどれだけ多くの赤い箱をとれるかというゲームです。
+
+###ソースの読み進め方
 
 ####tagを使って追う
 
