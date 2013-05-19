@@ -6,12 +6,13 @@ tags: [ OpenGL, oyas ]
 tagline: 3Dゲームプログラミングに挑戦
 ---
 
-<font color="red">2013/5/12 インストールの項目を修正。Windowsへのインストール方法を確認して載せました。</font>
+<font color="red">2013/5/19 インストールの項目を修正。Windowsへのインストール方法を確認して載せました。</font>
 
 こんにちは、oyasです。今回は、OpenGLを使ってのゲーム作りに挑戦します。
-といっても、ほぼ参考サイトの紹介となります。
+といっても、参考サイトの紹介と開発環境の構築の説明になります。
 
-まあ、それだけでは記事にならないので、簡単なゲームを作りましたので、そのコードを追っかけながらやっていくといいでしょう。
+本題のゲーム作りは、解説がおそらくできませんが、簡単なゲームを作りましたので、そのコードを追っかけながらやっていくといいでしょう。
+丸投げですみません。一応コードにコメントは書いてあるので、それを見ながらやっていってください。
 
 本当は、去年の文化祭で作った[ゲーム](https://github.com/oyas/SKSunshine)の解説をやりたかったのですが、
 量が多いのと、流れをつかむだけなら、簡単なゲームを作りながらやったほうがいいのではないかと思ったので、
@@ -205,32 +206,68 @@ MinGWは、フリーのコンパイラであるGCCを、Windowsアプリケー�
 
 ここまでで、下に載せたサンプルゲームは動きます。
 
-SKSunshineを動かしたい場合は、つづけて「OpenAL」もインストールしましょう。
-
-
 
 
 
 #### その他のインストール
-<font color="red">近日訂正予定</font>
 
-これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALのインストールが必要です。
+これで下で紹介するサンプルゲームは動きますが、「SKSunshine」を動かしたい場合は、さらにOpenALとGLEWのインストールが必要です。
 
-OpenALのインストールはここを参考に。
+#### OpenALのインストール
 
-[mingwでALUTを用いたOpenALのコンパイル方法](http://island.geocities.jp/v_no11/programing/OpenAL.html)
+参考サイト  
+<http://achapi2718.blogspot.jp/2013/02/c-openal-windowsxp-mingw.html>
 
-おそらく  
-「OpenAL SDK」　→　「oalinst」  
-「freealut Binary Zip」　→　「ALUT/freealut-1.1.0-bin」  
-と読みかえればいけると思います。
+まずは、以下のサイトから必要なものをダウンロードします。
 
-ちなみに、「alut.dll」「OpenAL32.dll」は、ゲームの実行ファイルと同じディレクトリに入れても動きます。
+<http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx>
+
+「OpenAL11CoreSDK」と「ALUT」フォルダ中の「freealut-1.1.0-bin」をダウンロードして解凍してください。
+
+まず、「freealut-1.1.0-bin」の中にある、  
+include\ 以下を C:\MinGW\include\ へ、  
+lib\alut.lib を C:\MinGW\lib\ へ、  
+lib\alut.dll を C:\MinGW\bin\ へ、  
+それぞれコピーしてください。
+
+次に、「OpenAL11CoreSDK」の中のインストーラーを実行してください。
+基本的に全部標準のままでいいと思います。
+
+最後に聞かれる、「Do you want to launch the OpenAL redist installer?」
+というのは、「oalinst.exe」を実行するかどうかということです。
+yesにして実行しておかないとゲームは動きません。
+
+noにしても、あとでC:\Program Files\OpenAL 1.1 SDK\redistにある「oalinst.exe」を実行すれば動きます。
+または上記のサイトからとってきてもOKです。
+別のPCでただ動かしたいだけならこの「oalinst.exe」を実行してインストールしましょう。
+
+その後、C:\Program Files\OpenAL 1.1 SDK の中の、  
+include\ 以下を MinGW\include\AL\ へ、  
+libs\Win32\OpenAL32.lib を MinGW\lib\ へ、  
+それぞれコピーしてください。
+
+これでOpenALのインストールは終わりです。
 
 
+#### GLEWのインストール
 
-それと、GLEWも必要だった気がするので入れておきましょう。  
-[MinGWでglewを入れる](http://d.hatena.ne.jp/Inuneco/20110716/p1)
+続けてGLEWも入れておきましょう。GLEWはUbuntuではいりませんが、WindowsではOpenGLの拡張機能を使うために必要です。
+
+<http://glew.sourceforge.net/>
+
+から、「Source」のとこの、「ZIP」をダウンロードして展開してください。
+
+MSYSから以下のように打ってビルドします。展開したフォルダのアドレスは"\"を"/"に変え、ドライブ名"C:"を"/c"に変えてください。
+
+	$ cd (展開したフォルダのアドレス)
+	$ make
+	
+そのご、そのフォルダの「lib」以下にできる拡張子「.a」のファイルを「C:\MinGW\lib\」以下にコピー、拡張子「.dll」のファイルを「C:\MinGW\bin\」へコピーしてください。
+そして、「include」の中身をまるごと、「C:\MinGW\include\」へコピーしてください。
+
+これでインストールは完了です。
+
+
 
 ----------
 
