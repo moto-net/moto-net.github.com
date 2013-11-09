@@ -5,10 +5,12 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Jekyll-Bootstrap.md"]
 pygments: true
 markdown: redcarpet
+encoding: utf-8
+
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "superscript"]
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 title : Internet Club
