@@ -8,7 +8,6 @@ title : RSS Feed
 <channel>
         <title>{{ site.title }}</title>
         <description>{{ site.title }} - {{ site.author.name }}</description>
-        <link>{{ site.production_url }}{{ site.rss_path }}</link>
         <link>{{ site.production_url }}</link>
         <link rel="shortcut icon" herf="{{ site.production_url }}/assets/images/favicon.ico" />
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
